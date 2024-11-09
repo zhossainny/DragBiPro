@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  react-app:
+    image: zhossainny/drag-bi-react-app:1.0.0
+    ports:
+      - "3500:3500"    
+  dragbi_mongo:
+    image: mongo:latest
+    container_name: "dragbi_mongo"
+    ports:
+      - "27017:27017"
+    # volumes:
+    #   - mongodb_data:/data/db  
+  spring-mongo-app:
+    image: zhossainny/spring-mongo-dragbi-backend-1.0.0.jar:latest
+    container_name: spring-mongo-app
+    ports:
+      - "9002:9002"
+    links:
+      - dragbi_mongo
+    
+
+  
+
+# volumes:
+#   mongodb_data:

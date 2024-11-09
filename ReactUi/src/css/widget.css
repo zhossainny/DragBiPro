@@ -1,0 +1,180 @@
+
+.number-cell {
+    text-align: right;
+}
+
+.val-negative {
+    color: red;
+}
+
+.val-positive {
+    color: green;
+}
+
+.dirtyFilterBox {
+    background-color: #ff8c009c;
+    font-weight: 600;
+}
+
+.header-label {
+    color: darkgray;
+    text-decoration: none;
+    display: inline-block;
+    float: left;
+    height: 16px;
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 3px;
+    margin-right: 10px;
+}
+
+.header-button {
+    background-color: #800080;
+    color:whitesmoke;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    display: inline-block;
+    float: left;
+    height: 16px;
+    font-size: 10px;
+    margin-top: 2px;
+    margin-right: 5px;
+}
+
+.header-button:hover {
+    background-color: black;
+}
+
+.header-button-minimize {
+    background-color: transparent;
+    border: 0px solid #ccc;
+    text-decoration: none;
+    display: inline-block;
+    float: left;
+    height: 16px;
+    font-size: 10px;
+    margin-top: 2px;
+    margin-right: 5px;
+    color: #333333cf;
+}
+
+.header-button-minimize:hover {
+    background-color: buttonface;
+}
+
+.config-expand-button {
+    background-color: #fff;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    display: inline-block;
+    float: right;
+    height: 16px;
+    font-size: 10px;
+    margin: 0px;
+}
+
+.config-expand-button:hover {
+    background-color: buttonface;
+}
+
+.config-expand-button-transformed {
+    background-color: #f5f7f7;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    display: inline-block;
+    float: left;
+    font-size: 11px;
+    margin-left: -30px;
+    margin-top: 30px;
+    transform: rotate(90deg);
+    transform-origin: 50% 51%;
+}
+
+.config-expand-button-transformed:hover {
+    background-color: buttonface;
+}
+
+.dash-config-small-button {
+    background-color: black;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    padding: 1px;
+    width: 20px;
+}
+
+.dash-config-small-button:hover {
+    background-color: buttonface;
+}
+
+.hidden {
+    display: none;
+}
+
+.font-size-xs {
+    font-size: 10px !important;
+}
+
+.font-size-s {
+    font-size: 12px !important;
+}
+
+.font-size-m {
+    font-size: 14px !important;
+}
+
+.font-size-l {
+    font-size: 16px !important;
+}
+
+.widgetControlContainer {
+    display: inline;
+}
+
+.widgetSettingCheckbox {
+    margin-top: 7px !important;
+}
+
+.ag-row-footer,
+.ag-floating-bottom-container > .ag-row {
+    font-weight: 500;
+    border-top: 1px solid #80808070 !important;
+    background-color: #262626 !important;
+}
+
+.ag-icon-contracted,
+.ag-icon-expanded {
+    height: 12px !important;
+}
+
+.ag-header-cell-label {
+    width: calc(100% - 16px) !important;
+}
+
+div.widgetContainer .Select-value {
+    margin-top: 1px !important;
+    line-height: 24px !important;
+}
+div.widgetContainer .Select-placeholder {
+    height: 24px !important;
+    line-height: 24px !important;
+}
+div.widgetContainer .Select-input {
+    height: 24px !important;
+}
+div.widgetContainer .Select-control {
+    height: 24px !important;
+}
+
+#checkboxes ul {
+    margin: 0;
+    list-style: none;
+    float: left;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}

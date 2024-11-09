@@ -1,0 +1,160 @@
+/* eslint-disable no-undef */
+/* eslint-disable react/prop-types */
+import React from 'react';
+import { withRouter } from 'react-router';
+import styled from 'styled-components';
+import { NAVBAR_BORDER_COLOR } from "./NavBarConstants";
+import { MainMenu } from "./MainMenu";
+import rightArrow from '../../../images/arrowRight.svg';
+import leftArrow from '../../../images/arrowLeft.svg';
+import { TAG_ADMIN, TAG_STORE, TAG_CATEGORIES, TAG_FAVOURITES, TAG_PROFILE, TAG_HOME, TAG_COLLECTIONS } from './../../../configuration/constants';
+import { bindActionCreators } from 'redux';
+import { connect } from 'react-redux';
+import * as appNavBarActions from '../../../actions/appNavBarActions';
+import * as _ from 'lodash';
+
+export class AppNavBar extends React.Component {
+    constructor(props, context) {
+        super(props, context);
+
+        this.state = {
+            tag: TAG_HOME
+        };
+    }
+
+    componentDidMount() {
+        this.debouncedToggleShowMenu = _.debounce(showMenu => this.props.actions.toggleAppNavBarShowMenu(showMenu), 500);
+        this.resolveState();
+    }
+
+    componentDidUpdate(prevProps, prevState) {
+        if (prevProps.location.pathname !== this.props.location.pathname) {
+            this.resolveState();
+        }
+
+        if (prevState.showMenu !== this.state.showMenu) {
+            this.debouncedToggleShowMenu(this.state.showMenu);
+        }
+    }
+
+    resolveState = () => {
+        let tag = null;
+        let currentPath = this.props.location.pathname;
+        let showMenu = true;
+
+        if (currentPath === '/') {
+            tag = TAG_HOME;
+        } else if (currentPath.includes(TAG_STORE)) {
+            tag = TAG_STORE;
+        } else if (currentPath.includes(TAG_FAVOURITES)) {
+            tag = TAG_FAVOURITES;
+        } else if (currentPath.includes(TAG_COLLECTIONS)) {
+            tag = TAG_COLLECTIONS;
+        } else if (currentPath.includes(TAG_PROFILE)) {
+            tag = TAG_PROFILE;
+        } else if (currentPath.includes(TAG_ADMIN)) {
+            tag = TAG_ADMIN;
+        } else {
+            tag = 'none';
+            showMenu = false;
+        }
+
+        this.setState({ tag, showMenu });
+    }
+
+    onMenuClick = tag => this.setState({ tag });
+
+    toggleMenu = () => this.setState(prevState => ({ showMenu: !prevState.showMenu }));
+
+    render() {
+        return (
+            <NavBar tabIndex="0" collapse={!this.state.showMenu}>
+                {this.state.showMenu ? <Header>DeskDev <Version>{APP_VERSION}</Version></Header>
+                                     : <Header collapse>D</Header>}
+                <Hr collapse={!this.state.showMenu} />
+                {/*<MainMenu onClick={this.onMenuClick} tag={this.state.tag} />*/}
+                {this.state.showMenu ? <LeftIcon src={leftArrow} onClick={this.toggleMenu} /> : <RightIcon src={rightArrow} onClick={this.toggleMenu} />}
+            </NavBar>
+        );
+    }
+}
+
+
+
+const NavBar = styled.nav`
+    background:#2b343f;
+    padding-top: 5px;
+    overflow:hidden;
+    user-select:none;
+    position: relative;
+    border-right:  1px solid ${NAVBAR_BORDER_COLOR};
+    width:${props => props.collapse ? "40px" : "230px"};
+    min-width: ${props => props.collapse ? "40px" : "230px"};
+    transition: all 0.5s ease;
+    outline: none;
+    white-space: nowrap;
+`;
+
+const Header = styled.div`
+    font-family: Lato;
+    font-size: 1.35em;
+    color: #999;
+    margin-left:${props => props.collapse ? "15px" : "40px"};
+    margin-top: 15px;
+    margin-bottom:10px;
+    transition: margin-left 0.5s ease;
+
+`;
+
+const Version = styled.span`
+    font-size: 12px;
+    margin-left: 10px;
+`;
+
+const Hr = styled.div`
+    margin-left: 25px;
+    margin-bottom:20px;
+    width:${props => props.collapse ? "0" : "205px"};
+    min-width: ${props => props.collapse ? "0" : "205px"};
+    transition: all 0.5s ease;
+`;
+
+const RightIcon = styled.img`
+    margin-right:15px;
+    font-size:15px;
+    display:inline;
+    background-size: 15px 15px;
+    color: #999;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    &:hover{
+        cursor: pointer;
+        color: white;
+    }
+`;
+
+const LeftIcon = styled.img`
+    font-size:15px;
+    display:inline-block;
+    background-size: 15px 15px;
+    color: #999;
+    margin: 0;
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    &:hover{
+        cursor: pointer;
+        color: white;
+    }
+`;
+
+
+
+function mapDispatchToProps(dispatch) {
+    return {
+        actions: bindActionCreators({ ...appNavBarActions }, dispatch)
+    };
+}
+
+export default withRouter(connect(null, mapDispatchToProps)(AppNavBar));

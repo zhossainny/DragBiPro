@@ -1,0 +1,35 @@
+.metric.size-s {
+    font-size: 18px !important;
+}
+
+.metric.size-m {
+    font-size: 26px !important;
+}
+
+.metric.size-l {
+    font-size: 36px !important;
+}
+
+.metric-caption.size-s {
+    font-size: 12px !important;
+}
+
+.metric-caption.size-m {
+    font-size: 14px !important;
+}
+
+.metric-caption.size-l {
+    font-size: 16px !important;
+}
+
+.metric-container.size-s {
+    margin-top: -20px !important;
+}
+
+.metric-container.size-m {
+    margin-top: -25px !important;
+}
+
+.metric-container.size-l {
+    margin-top: -36px !important;
+}

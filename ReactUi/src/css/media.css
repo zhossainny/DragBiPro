@@ -1,0 +1,9 @@
+@media only screen and (max-width: 950px) {
+    .cards-grid {
+        grid-auto-rows: auto;
+    }
+
+    [class*="Card__Author"] {
+        margin-bottom: 20px;
+    }
+}

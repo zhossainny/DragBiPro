@@ -1,0 +1,51 @@
+/* The snackbar - position it at the bottom and in the middle of the screen */
+#snackbar {
+    visibility: hidden; /* Hidden by default. Visible on click */
+    min-width: 500px; /* Set a default minimum width */
+    margin-left: -125px; /* Divide value of min-width by 2 */
+    background-color: white; /* Black background color */
+    color: #333; /* White text color */
+    text-align: left; /* Centered text */
+    border-radius: 2px; /* Rounded borders */
+    padding: 16px; /* Padding */
+    position: fixed; /* Sit on top of the screen */
+    z-index: 1; /* Add a z-index if needed */
+    left: 75%; /* Center the snackbar */
+    top: 15px; /* 30px from the bottom */
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+#snackbar.show {
+    visibility: visible; /* Show the snackbar */
+    animation: fadein 0.5s, fadeout 0.5s 5s;
+}
+
+.info {
+    border: 1px solid #ccc;
+    border-left: 20px solid dodgerblue;
+}
+
+.error {
+    border: 1px solid #ccc;
+    border-left: 20px solid red;
+}
+
+.warn {
+    border: 1px solid #ccc;
+    border-left: 20px solid darkorange;
+}
+
+@keyframes fadein {
+    from {top: 0; opacity: 0;}
+    to {top: 15px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {top: 15px; opacity: 1;} 
+    to {top: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {top: 15px; opacity: 1;}
+    to {top: 0; opacity: 0;}
+}
