@@ -1,0 +1,5 @@
+server.port:9104
+server.ssl.key-store-type=JKS
+server.ssl.key-store-password=password
+server.ssl.key-alias=1
+server.ssl.key-store=classpath:keystore.jks
