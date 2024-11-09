@@ -1,8 +1,12 @@
 # DragBiPro
 
-npm install
+
+npm install then run
 npm start
 
+Browser: localhost:3500
+
+DOCKER RUN:
 for Docker to run Spring backend and Mongo together (-d deamon mode)
 docker run -d -p 3500:3500 zhossainny/drag-bi-react-app:1.0.0
 docker network create app-network
