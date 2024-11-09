@@ -1,0 +1,8 @@
+spring.data.mongodb.host=localhost
+spring.data.mongodb.port=27017
+spring.data.mongodb.database=AppInfo
+server.port:9002
+server.ssl.key-store-type=JKS
+server.ssl.key-store-password=password
+server.ssl.key-alias=1
+server.ssl.key-store=classpath:keystore.jks

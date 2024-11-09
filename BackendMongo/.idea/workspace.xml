@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7c969581-e8da-49e6-a68f-e2ede823c2bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javatechie/spring/mongo/api/model/AppContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javatechie/spring/mongo/api/model/AppContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javatechie/spring/mongo/api/model/AppInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javatechie/spring/mongo/api/model/AppInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javatechie/spring/mongo/api/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javatechie/spring/mongo/api/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javatechie/spring/mongo/api/model/Tag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javatechie/spring/mongo/api/model/Tag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javatechie/spring/mongo/api/resource/AppInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javatechie/spring/mongo/api/resource/AppInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/javatechie/spring/mongo/api/SpringMongodbApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/javatechie/spring/mongo/api/SpringMongodbApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/javatechie/spring/mongo/api/SpringMongodbApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/javatechie/spring/mongo/api/conf/AppConf.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/javatechie/spring/mongo/api/conf/AppConf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/javatechie/spring/mongo/api/model/AppContent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/javatechie/spring/mongo/api/model/AppContent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/javatechie/spring/mongo/api/model/AppInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/javatechie/spring/mongo/api/model/AppInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/javatechie/spring/mongo/api/model/Author.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/javatechie/spring/mongo/api/model/Author.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/javatechie/spring/mongo/api/model/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/javatechie/spring/mongo/api/model/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/javatechie/spring/mongo/api/model/Tag.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/javatechie/spring/mongo/api/model/Tag.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/javatechie/spring/mongo/api/repository/AppContentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/javatechie/spring/mongo/api/repository/AppContentRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/javatechie/spring/mongo/api/repository/AppInfoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/javatechie/spring/mongo/api/repository/AppInfoRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/javatechie/spring/mongo/api/repository/BookRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/javatechie/spring/mongo/api/repository/BookRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/javatechie/spring/mongo/api/resource/AppContentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/javatechie/spring/mongo/api/resource/AppContentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/javatechie/spring/mongo/api/resource/AppInfoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/javatechie/spring/mongo/api/resource/AppInfoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/javatechie/spring/mongo/api/resource/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/javatechie/spring/mongo/api/resource/BookController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/javatechie/spring/mongo/api/SpringMongodbApplicationTests.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLabMergeRequestsSettings">{}</component>
+  <component name="GithubPullRequestsUISettings">{}</component>
+  <component name="KubernetesApiProvider">{}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="19" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="1U47HHnK4LkYgarH8wEUciiwZtS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.SpringMongodbApplication.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SpringMongodbApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.spring-mongo-dragbi-backend [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.spring-mongo-dragbi-backend [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.spring-mongo-dragbi-backend- [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.spring-mongo-dragbi-backend- [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.spring-mongodb [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.spring-mongodb [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.spring-mongodb [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.spring-mongodb [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.spring-mongodb-dragbi [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.spring-mongodb-dragbi [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/zahid/CharlesRiver/Tutorial/springboot-mongo-docker-main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.SpringMongodbApplication">
+    <configuration name="SpringMongodbApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="19" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.javatechie.spring.mongo.api.SpringMongodbApplication" />
+      <module name="spring-mongodb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javatechie.spring.mongo.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringMongodbApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-mongodb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javatechie.spring.mongo.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.javatechie.spring.mongo.api" />
+      <option name="MAIN_CLASS_NAME" value="com.javatechie.spring.mongo.api.SpringMongodbApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringMongodbApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="spring-mongodb" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.javatechie.spring.mongo.api.SpringMongodbApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.SpringMongodbApplication" />
+      <item itemvalue="JUnit.SpringMongodbApplicationTests" />
+      <item itemvalue="Spring Boot.SpringMongodbApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SpringMongodbApplication" />
+        <item itemvalue="JUnit.SpringMongodbApplicationTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.127" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.127" />
+        <option value="jdk-19.0.2-corretto-19.0.2-af6f2daf387d-c322af59" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c969581-e8da-49e6-a68f-e2ede823c2bb" name="Default Changelist" comment="" />
+      <created>1574603925005</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574603925005</updated>
+      <workItem from="1711395137764" duration="11605000" />
+      <workItem from="1711488963941" duration="3801000" />
+      <workItem from="1711540636912" duration="8851000" />
+      <workItem from="1711568791140" duration="21000" />
+      <workItem from="1711574053072" duration="3329000" />
+      <workItem from="1714508056743" duration="13000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/javatechie/spring/mongo/api/resource/AppInfoController.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/javatechie/spring/mongo/api/resource/AppContentController.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
