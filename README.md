@@ -3,12 +3,13 @@
 https://www.youtube.com/watch?v=1aU3g2b_ma4
 
 To Run Manually:
-npm install then run
-
+npm install
 npm start
-Browser: localhost:3500
+On the browser: localhost:3500
 
-**** Docker Hub has these created already ************************ https://hub.docker.com/u/zhossainny ********************************************************
+**** Docker Hub has these created already *********
+https://hub.docker.com/u/zhossainny ***************
+
 DOCKER RUN:
 for Docker to run Spring backend and Mongo together (-d deamon mode)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
